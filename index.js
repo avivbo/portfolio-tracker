@@ -103,7 +103,7 @@ const instruments = [
 ];
 
 // Initialize with empty portfolio
-portfolio = [];
+const portfolio = [];
 
 // find instruments by given name and send them back to the user
 app.get("/instruments", function(req, res) {
